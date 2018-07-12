@@ -2,7 +2,9 @@
 const drivers = {}
 
 function logDriverNames(drivers){
-
+    drivers.foreach(driver){
+    console.log(driver.name)
+  }
 }
 
 function logDriversByHometown(drivers, hometown){
