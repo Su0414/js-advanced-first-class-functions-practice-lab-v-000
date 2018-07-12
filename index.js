@@ -13,3 +13,7 @@ const logDriversByHometown = function(drivers, hometown){
       console.log(driver.name)
   });
 };
+
+const driversByRevenue = function (drivers) {
+
+};
